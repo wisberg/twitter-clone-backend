@@ -1,0 +1,22 @@
+{
+  "name": "merg_social_app",
+  "version": "1.0.0",
+  "description": "MERNG Social Media App",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node index.js",
+    "start": "node index.js"
+  },
+  "author": "Duff Isberg",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server": "^2.19.2",
+    "bcryptjs": "^2.4.3",
+    "graphql": "^15.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.13"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
